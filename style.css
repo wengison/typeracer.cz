@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    font-size: 1.01em;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid orange 5px;
+    gap: 20px;
+}
+
+.racing-box-main {
+    width: 150vh;
+    height: 60vh;
+    border: solid black 1px;
+    border-radius: 18px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    padding-top: 10vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(79, 1fr);
+    /* color: rgb(71, 255, 47) */
+}
+
+.field {
+    border-bottom: solid  grey 1px;
+    min-width: auto;
+    height: 20px;
+    padding-right: 1px;
+}
+textarea {
+    width: 150vh;
+    border: solid orange 3px;
+}
